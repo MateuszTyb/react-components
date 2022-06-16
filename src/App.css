@@ -1,0 +1,55 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(../public/5a58d2b2bbd4b.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.App-Header {
+  background-color: #003a72;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1.5vmin);
+  color: #61dbfb;
+}
+
+.App-logo {
+  animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+  20% {
+    transform: rotate(360deg);
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+a {
+  text-decoration: none;
+  color: #61dbfb;
+}
+
+a:hover,
+a:focus {
+  color: #0069c9;
+}
+
+p {
+  color: #003a72;
+  font-size: large;
+  font-weight: bold;
+}
+
+img {
+  display: flex;
+}
